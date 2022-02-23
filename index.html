@@ -4,97 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi paginal</title>
-    <Style>
-        #idzagitl{
-            color: blue;
-        }
-        .idzagitl{
-            color: darkred;
-        }
-        body{
-            background-color: whitesmoke;
-        }    
-        strong ul  li{
-                color: rgb(8, 17, 8);
-        }
-        table, th, td {
-  border: 3px dashed red;
-  border-collapse: collapse;
-}
-        
-    </Style>
-    
-    <style>
-        #idcolor1{
-            color: black;
-        }
-        #idcolor2{
-            color: coral;
-        }
-        #idcolor3{
-            color: blue;
-        }
-        
-        strong ul li{
-                color: rgb(17, 153, 17); 
-        }
-    </style>
+    <title>Practica 1 - Tema 1</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <Strong><h1>DESARROLLO WEB</h1></Strong>       
-        <p>
-            <strong>
-                <h2>
-                 Bienvenid@ 
-                    <p>Texto</p> 
-                </h2> 
-            </strong>           
-        </p>
-    <strong>
-        <ul>
-            <li id="idzagitl">Zagitl</li>
-            <li class="idzagitl">José</li>
-            <li>Javier</li>
-            <li>Juan </li>
-            <li>María</li>
-            <li>Andrea</li>
-            <li>Sarah</li>
-        </ul>
-    </strong>
-        <p>
-            <strong><h1>BIENVENIDO AL EJERCICIO</h1></strong>
-        </p>
-        <p>En este ejercicio aprenderás CSS</p>
-            <strong>
-                <ul>
-                    <h2><li>TEMA 1</li></h2>
-                    <p id="idcolor2">INTRODUCCIÓN A HTML Y CSS</p>
-                    <h2><li>TEMA 2</li></h2>
-                    <p id="idcolor2">INTRODUCCIÓN A <strong id="idcolor3">CSS</strong> </p>
-                    <h3><li id="idcolor1">TEMA 3</li></h3>
-                    <p id="idcolor2">INTRODUCCIÓN JS</p>
-                </ul>m
-            </strong>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1995.608400943616!2d-96.74893958555484!3d17.02580648055636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c7190fd57fccf9%3A0x693a58a48479adc9!2sTluyadas%20chidas!5e0!3m2!1ses!2smx!4v1645116141893!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div id="contenedor">
+        <header>
+            <h1>Bienvenido a mi pagina</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a> </li>
+                <li><a target="_blank" href="https://github.com/I6A-2022/practica1_Zagitl_Ortiz">Mi perfil de Github</a></li>
+                <li><a target="_blank" href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwi4ifu_tJb2AhXNmmoFHRrmDroQPAgI">Acerca de</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/?hl=es-la">Compartir</a></li>
+            </ul>
+        </nav>
 
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+        <div class="componerSalto"></div>
+        
+        <section id="contenido">
+            <article>
+                <h2>Tema 1</h2>
+                <p>Introducción a HTML</p>
+            </article>
+            <article>
+                <h2>Tema 2</h2>
+                <p>Descripción del tema 2</p>
+            </article>
+            <article>
+                <h2>Tema 3</h2>
+                <p>Descripción del tema 3</p>
+            </article>
+            <article>
+                <h2>Tema 4</h2>
+                <p>Descripción del tema 4</p>
+            </article>
+        </section>
+        <aside>
+            <h2>Barra lateral</h2>
+            <form>
+                <input type="Search">
+                <input value="Buscar" type="button">
+            </form>
+        </aside>
+        
+        <div class="componerSalto"></div>
 
-            <table <table style="float: left">
-                <tr>
-                  <th>Nombre</th>
-                  <th>Curp</th>
-                  <th>Telefono</th>
-                </tr>
-                <tr>
-                  <td>Zagitl</td>
-                  <td>OICZ990320HOCRRG03</td>
-                  <td>9512892731</td>
-                </tr>
-              </table>
-
-        </body>
+        <footer>
+            Zagitl Ortiz Cruz &copy; 2022
+        </footer>
+    </div>
+</body>
 </html>
